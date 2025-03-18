@@ -69,3 +69,12 @@ body {
 .min-vh-60 {
     min-height: 60vh;
 }
+
+.feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
