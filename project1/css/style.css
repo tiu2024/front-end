@@ -78,3 +78,25 @@ body {
     height: 48px;
     border-radius: 50%;
 }
+
+.event-date {
+    display: inline-block;
+    text-align: center;
+    min-width: 60px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.event-date .day {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1;
+    color: var(--primary-color);
+}
+
+.event-date .month {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
